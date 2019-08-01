@@ -1,0 +1,100 @@
+	
+		.font{
+			padding-top: 70px;
+			font-size: 3rem;
+			padding-bottom: 50px;
+		}
+
+		.cards{
+			flex-direction: row;
+			display: flex;
+			margin-top: 5px;
+			margin-left: 200px;
+		}
+
+		.cards1{
+			flex-direction: row;
+			display: flex;
+			margin-top: 5px;
+			margin-right: 200px;
+			margin-left: 200px;
+			box-shadow: 0 1px 1px 3px rgba(0,0,0,0.1);
+			width: 900px;
+			height: 330px;
+			border-radius: 10px;
+		}
+
+	
+
+		.box1{
+			width: 200px;
+			box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+			border-radius: 5px;
+			border: 5px;
+			margin-left: 5px;	
+		}
+
+		.box2{
+			margin-left: 25px;
+			height: 280px;
+			width: 550px;
+		}
+
+
+
+		.container{
+			padding: 2px 16px;
+		}
+
+		button{
+			width: 100px;
+			height: 30px;
+			background-color: pink;
+			border-radius: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		form{
+			width: 500px;
+		}
+
+		h2{
+			text-shadow: 3px 3px #DCDCDC;
+		}
+
+
+		#confirm {
+			border-radius: 10px;
+            display: none;
+            background-color: #e5e5e5 ;
+            margin-top: -500px;
+			border: 1px solid #aaa;
+            position: fixed;
+            width: 300px;
+            height: 200px;
+            left: 50%;
+            margin-left: -150px;
+            padding: 6px 8px 8px;
+            box-sizing: border-box;
+            text-align: center;
+            /*display: flex;
+            justify-content: center;*/
+         }
+         #confirm button {
+            background-color: pink;
+            display: inline-block;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            margin-top: 20px;
+            padding: 5px;
+            text-align: center;
+            width: 80px;
+            cursor: pointer;
+         }
+         #confirm .message {
+            text-align: left;
+            padding-top: 50px;
+         }
+
